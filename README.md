@@ -3,14 +3,9 @@
 ## create project
 
 ```bash
-npx create-next-app app --example "https://github.com/redimpulz/nextjs-typescript-starter/tree/with_firebase"
+npx create-next-app app --example "https://github.com/redimpulz/nextjs-typescript-starter"
 ```
 
-## deploy
-
-```bash
-npm run deploy
-```
 
 ## features
 
@@ -19,4 +14,3 @@ npm run deploy
 * ESlint
 * Prettier
 * VScode Extentions
-* Firebase Deployment
