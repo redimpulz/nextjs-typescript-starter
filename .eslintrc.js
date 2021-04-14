@@ -5,8 +5,6 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
-    'prettier/react',
   ],
   plugins: ['@typescript-eslint', 'react', 'prettier'],
   env: { node: true, es6: true },
@@ -19,7 +17,8 @@ module.exports = {
   },
   rules: {
     'react/prop-types': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/ban-types': 'off',
     'no-restricted-imports': [
       'error',
       {
