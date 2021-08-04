@@ -8,8 +8,9 @@ npx create-next-app app --example "https://github.com/redimpulz/nextjs-typescrip
 
 ## features
 
-* Next.js
-* TypeScript
-* ESlint
-* Prettier
-* VScode Extentions
+- Next.js
+- TypeScript
+- ESlint
+- Prettier
+- Tailwind CSS
+- VScode Extentions
