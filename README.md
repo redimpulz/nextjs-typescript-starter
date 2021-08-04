@@ -12,4 +12,5 @@ npx create-next-app app --example "https://github.com/redimpulz/nextjs-typescrip
 * TypeScript
 * ESlint
 * Prettier
+* Tailwind CSS
 * VScode Extentions
