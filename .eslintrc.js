@@ -1,24 +1,8 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-  ],
-  plugins: ['@typescript-eslint', 'react', 'prettier'],
-  env: { node: true, es6: true },
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
+  extends: ['next', 'next/core-web-vitals', 'prettier'],
   rules: {
-    'react/prop-types': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/ban-types': 'off',
+    semi: ['error', 'never'],
+    quotes: ['error', 'single'],
     'no-restricted-imports': [
       'error',
       {
@@ -26,9 +10,4 @@ module.exports = {
       },
     ],
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-};
+}
