@@ -1,5 +1,5 @@
 {
-  "extensions.showRecommendationsOnlyOnDemand": false,
+  "extensions.ignoreRecommendations": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
