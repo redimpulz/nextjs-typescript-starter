@@ -51,6 +51,10 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <button className="py-2 px-4 font-bold text-white bg-blue-500 hover:bg-blue-700 rounded">
+          tailwindcss Button
+        </button>
       </main>
 
       <footer className={styles.footer}>
