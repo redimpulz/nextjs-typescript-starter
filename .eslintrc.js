@@ -5,7 +5,6 @@ module.exports = {
     'prettier',
     'plugin:tailwindcss/recommended',
   ],
-  plugins: ['tailwindcss'],
   rules: {
     semi: ['error', 'never'],
     quotes: ['error', 'single'],
