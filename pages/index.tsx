@@ -52,7 +52,7 @@ export default function Home() {
           </a>
         </div>
 
-        <button className="py-2 px-4 font-bold text-white bg-blue-500 hover:bg-blue-700 rounded">
+        <button className="rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
           tailwindcss Button
         </button>
       </main>
