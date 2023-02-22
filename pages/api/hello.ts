@@ -5,9 +5,13 @@ type Data = {
   name: string
 }
 
-export default function handler(
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'John Doe' })
+  const text = await (
+    await fetch('https://colonista.official.ec/blog/feed')
+  ).text()
+  res.setHeader('Content-Type', 'application/xml')
+  res.end(text)
 }
